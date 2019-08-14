@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+    <head>
+        <title>Body Mass Index</title>              <!-- accessing the css in html file -->
+        <meta charset = "utf-8">
+        <style type = "text/css">
+            body {
+                background-color: orange;
+            }
+        </style>
+    </head>
+
+<body>
+    <h1>BMI Calculator</h1>
+    <h2>Enter your information here</h2>
+    <form method = "POST" action = "/bmi">
+        <fieldset>
+            <label>Height: </label>
+            <input type = "text" name = "Ft" value = "" placeholder = "feet"/>
+            <input type = "text" name = "In" value = "" placeholder = "inches"/>
+            <br>
+            <label>Weight: </label>
+            <input type = "text" name = "Wei" value = "" placeholder = "pounds"/>
+
+    <button type = "submit"> Submit </button>
+        </fieldset>
+    </form>
+</body>
+</html>
